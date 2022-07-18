@@ -1,5 +1,5 @@
 # HM10 Bluetooth Serial iOS
-This is a simple iOS 9/10 app that lets you communicate with a HM10 (or HM11 or similar) Bluetooth UART module. This way you can communicate from your iPhone/iPad with e.g. an Arduino.
+This is a simple iOS 15 app that lets you communicate with a HM10 (or HM11 or similar) Bluetooth UART module. This way you can communicate from your iPhone/iPad with e.g. an Arduino.
 
 It is available for free on the [App Store](https://itunes.apple.com/us/app/hm10-bluetooth-serial/id1030454675?ls=1&mt=8).
 
@@ -14,3 +14,5 @@ It has a tonne more features to help debugging HM10 applications, and also suppo
 
 ## Notes
 ~~Note: (IMPORTANT) In the preferences (within the app), select 'Write with response' if you have a fake HM10, or select 'Write without response' if you have a legit HM10 or HM11. If you don't select the right option, the app won't be able to write data to the bluetooth module.~~ As of version 1.1.2 this is no longer needed. Writetype is now detected automatically!
+
+The origonal files were not made by me but I am in the process of updating them
